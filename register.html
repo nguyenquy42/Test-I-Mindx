@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="menu">
+            <img src="img/logo.jpg" alt="">
+            <ul>
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#">Sản phẩm</a></li>
+                <li><a href="#">Liên hệ</a></li>
+                <li><a href="#">Tài khoản</a></li>
+            </ul>
+            <div class="menuFight">
+                <button class="btn"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span
+                        id="SoLuong">0</span></button>
+                <input type="text" name="" id="">
+                <button>Tìm Kiếm</button>
+            </div>
+        </div>
+
+    </div>
+    <div class="bodyRe">
+        <form method="post" action="#">
+            <div class="inpfloatL">
+                <div class="inp">
+                    <label>Tên đăng nhập</label>
+                    <div>
+                        <div>
+                            <span><i class="fa fa-users fa" aria-hidden="true"></i></span>
+                            <input type="text" name="username" id="txtTenDN" placeholder="Nhập tên đăng nhập" required
+                                autofocus />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="inp">
+                    <label>Mật khẩu</label>
+                    <div>
+                        <div>
+                            <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+                            <input type="password" name="password" id="txtMK" placeholder="Nhập mật khẩu" required />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="inp">
+                    <label>Xác nhận mật khẩu</label>
+                    <div>
+                        <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+                        <input type="password" name="confirm" id="txtXN_MK" placeholder="Xác nhận lại mật khẩu"
+                            required />
+                    </div>
+                </div>
+
+                <div class="inp">
+                    <label>Họ tên</label>
+                    <div>
+                        <div>
+                            <span><i class="fa fa-user fa" aria-hidden="true"></i></span>
+                            <input type="text" name="name" id="txtHoTen" placeholder="nhập Họ tên" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="inp">
+                    <label>Email</label>
+                    <div>
+                        <span><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+                        <input type="text" name="email" id="txtEmail" placeholder="Nhập lại Email" required />
+                    </div>
+                </div>
+            </div>
+            <div class="inpfloatR">
+                <div class="inp">
+                    <label>SĐT</label>
+                    <div>
+                        <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+                        <input type="text" name="SĐT" id="txtSDT" placeholder="Nhập lại SĐT" />
+                    </div>
+                </div>
+                <div class="inp">
+                    <label>Địa chỉ</label>
+                    <div>
+                        <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                        <input type="text" name="Địa chỉ" id="txtDC" placeholder="Nhập lại Địa chỉ" />
+                    </div>
+                </div>
+                <div class="inp">
+                    <label>CMND</label>
+                    <div>
+                        <span><i class="fa fa-id-card" aria-hidden="true"></i></span>
+                        <input type="text" name="CMND" id="txtCMND" placeholder="Nhập lại CMND" />
+                    </div>
+                </div>
+                <div class="inp">
+                    <label>Ngày sinh</label>
+                    <div>
+                        <span><i class="fa fa-birthday-cake" aria-hidden="true"></i></span>
+                        <input type="date" name="Ngày sinh" id="txtNS" placeholder="Nhập lại Ngày sinh" required />
+                    </div>
+                </div>
+                <div class="inp">
+                    <label>Ảnh đại diện</label>
+                    <div>
+                        <span><i class="fa fa-picture-o" aria-hidden="true"></i></span>
+                        <input type="file" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="impB">
+                <button onclick="DangKy()">Đăng Ký</button>
+            </div>
+        </form>
+    </div>
+    <div class="footer footerRe">
+        <div>
+            <img src="img/logo-mindX.png" alt="">
+            <div class="footerRight">
+                <h2>Thông tin thành viên</h2>
+                <table>
+                    <tr>
+                        <td>Gia Duy</td>
+                        <td>Nguyễn Quý</td>
+                        <td>Hồ Văn Vũ </td>
+                    </tr>
+                    <tr>
+                        <td>Email: <a href="#">giaduy0907@gmail.com</a></td>
+                        <td>Email: <a href="#">nguyenquy26012014@gmail.com</a></td>
+                        <td>Email: <a href="#">hovanvu26699@gmail.com</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="footerClassname">
+            <p>Được thiết kế bở <a href="#">@ Nhóm Duy Vũ Quý</a></p>
+        </div>
+
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
